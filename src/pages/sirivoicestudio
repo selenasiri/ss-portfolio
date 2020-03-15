@@ -1,0 +1,13 @@
+import React from 'react'
+import { Link } from 'gatsby'
+import Layout from '../components/layout/Layout'
+
+const StudioPage = () => {
+  return (
+    <Layout>
+      hhhh
+    </Layout>
+  )
+}
+
+export default StudioPage

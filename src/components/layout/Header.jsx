@@ -42,15 +42,6 @@ const Header = () => {
               activeClassName={headerStyles.activeNavItem}
               to="/blog"
             >
-              Blog
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-              to="/about"
-            >
               About
             </Link>
           </li>
@@ -59,6 +50,24 @@ const Header = () => {
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
               to="/contact"
+            >
+              Siri Voice Studio
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/sirivoicestudio"
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/about"
             >
               Contact
             </Link>
