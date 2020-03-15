@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout/Layout'
 
-const StudioPage = () => {
+const UpcomingPage = () => {
   return (
     <Layout>
-      hhhh
+      <h1>Upcoming </h1>
     </Layout>
   )
 }
 
-export default StudioPage
+export default UpcomingPage

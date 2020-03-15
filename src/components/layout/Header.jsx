@@ -40,7 +40,7 @@ const Header = () => {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/blog"
+              to="/about"
             >
               About
             </Link>
@@ -49,7 +49,7 @@ const Header = () => {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/contact"
+              to="/sirivoicestudio"
             >
               Siri Voice Studio
             </Link>
@@ -58,7 +58,25 @@ const Header = () => {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/sirivoicestudio"
+              to="/videos"
+            >
+              Videos
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/upcoming"
+            >
+              Upcoming
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/blog"
             >
               Blog
             </Link>
@@ -67,7 +85,7 @@ const Header = () => {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/about"
+              to="/contact"
             >
               Contact
             </Link>

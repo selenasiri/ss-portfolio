@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout/Layout'
+import aboutphoto from '../assets/images/aboutphoto.jpg'
 
 const AboutPage = () => {
   return (
     <Layout>
       <h1>About </h1>
+      <img className="aboutphoto" src={aboutphoto} alt="aboutphoto" />
       <h2>
         "Every child is an artist. The problem is how to remain an artist once
         we grow up." - Pablo Picasso

@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout/Layout'
 import home from '../assets/images/home.jpg'
+import barbarinacostume from '../assets/images/barbarinacostume.jpg'
+import momanddadrecital from '../assets/images/momanddadrecital.jpg'
+import waltergroup from '../assets/images/waltergroup.jpg'
 
 const IndexPage = () => {
   return (
@@ -11,8 +14,21 @@ const IndexPage = () => {
       <br />
       <h2>Voice & Piano Teacher at Siri Voice Studio</h2>
       */Link to Siri Voice Studio/*
+      <h1>Gallery</h1>
+      <img
+        className="barbarinacostume"
+        src={barbarinacostume}
+        alt="barbarinacostume"
+      />
+      <img
+        className="momanddadrecital"
+        src={momanddadrecital}
+        alt="momanddadrecital"
+      />
+      <img className="waltergroup" src={waltergroup} alt="waltergroup" />
       <p>
-        Need a web developer? <Link to="/contact">Contact me.</Link>
+        Did you like this page? Contact <Link to="/contact"> here</Link> to
+        create a website.
       </p>
     </Layout>
   )
