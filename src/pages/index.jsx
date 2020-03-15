@@ -14,18 +14,24 @@ const IndexPage = () => {
       <br />
       <h2>Voice & Piano Teacher at Siri Voice Studio</h2>
       */Link to Siri Voice Studio/*
-      <h1>Gallery</h1>
-      <img
-        className="barbarinacostume"
-        src={barbarinacostume}
-        alt="barbarinacostume"
-      />
-      <img
-        className="momanddadrecital"
-        src={momanddadrecital}
-        alt="momanddadrecital"
-      />
-      <img className="waltergroup" src={waltergroup} alt="waltergroup" />
+      <div className="gallery">
+        {' '}
+        <h1>Gallery</h1>
+        <a target="_blank" href="barbarinacostume" />
+        <img
+          className="barbarinacostume"
+          src={barbarinacostume}
+          alt="barbarinacostume"
+        />
+        <a target="_blank" href="momanddadrecital" />
+        <img
+          className="momanddadrecital"
+          src={momanddadrecital}
+          alt="momanddadrecital"
+        />
+        <a target="_blank" href="waltergroup" />
+        <img className="waltergroup" src={waltergroup} alt="waltergroup" />
+      </div>
       <p>
         Did you like this page? Contact <Link to="/contact"> here</Link> to
         create a website.
