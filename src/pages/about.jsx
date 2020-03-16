@@ -12,7 +12,6 @@ const AboutPage = () => {
         "Every child is an artist. The problem is how to remain an artist once
         we grow up." - Pablo Picasso
       </h2>
-      //Side view photo
       <p>
         After completing a B.M. in vocal performance from Mason Gross School of
         the Arts, soprano Selena Siri has developed her interest in music since

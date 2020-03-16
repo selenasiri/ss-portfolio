@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Siri Voice  Studio',
-    author: 'Selena S.',
+    title: 'Selena Siri, Soprano',
+    author: 'Selena Siri',
   },
 
   plugins: [

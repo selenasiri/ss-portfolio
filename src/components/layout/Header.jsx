@@ -67,9 +67,9 @@ const Header = () => {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/upcoming"
+              to="/calendar"
             >
-              Upcoming
+              Calendar
             </Link>
           </li>
           <li>

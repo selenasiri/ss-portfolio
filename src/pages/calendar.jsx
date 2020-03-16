@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout/Layout'
-import inherwords from '../assets/images/inherwords.jpeg'
+import inherwords from '../assets/images/inherwords.jpg'
 
-const UpcomingPage = () => {
+const CalendarPage = () => {
   return (
     <Layout>
-      <h1>Upcoming </h1>
+      <h1>Calendar </h1>
       <h2>Die Zauberflote by Mozart</h2>
       <h2>Le nozze di Figaro</h2>
       <h2>Le nozze di Figaro</h2>
@@ -19,4 +19,4 @@ const UpcomingPage = () => {
   )
 }
 
-export default UpcomingPage
+export default CalendarPage
